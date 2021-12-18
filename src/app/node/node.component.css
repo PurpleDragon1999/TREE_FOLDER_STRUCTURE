@@ -1,0 +1,32 @@
+.node-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.node {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+}
+
+.node-parent:hover {
+    border: 1px solid #000;
+    padding: 0 0.5rem;
+}
+
+.actions {
+    display: none;
+}
+
+.node-parent:hover .actions {
+    display: flex;
+}
+
+.node-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0 0.5rem;
+}
